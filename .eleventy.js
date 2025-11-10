@@ -55,6 +55,8 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("slugify", filters.slugify);
   eleventyConfig.addFilter("getAllCategories", filters.getAllCategories);
   eleventyConfig.addFilter("getAllTags", filters.getAllTags);
+  eleventyConfig.addFilter("sortCategoriesByName", filters.sortCategoriesByName);
+  eleventyConfig.addFilter("sortTagsByName", filters.sortTagsByName);
   eleventyConfig.addFilter("excerpt", filters.excerpt);
   eleventyConfig.addFilter("head", filters.head);
   eleventyConfig.addFilter("findTranscript", filters.findTranscript);
